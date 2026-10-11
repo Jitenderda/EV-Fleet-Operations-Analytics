@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment files and secrets
+.env
+.env.*
+*.key
+*.pem
+secrets/
+credentials/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local operating-system files
+.DS_Store
+Thumbs.db
+
+# Local data files
+data/raw/*
+data/processed/*
+
+# Keep folder documentation visible
+!data/raw/README.md
+!data/processed/README.md
+
+# Large local dashboard files
+*.pbix
+*.pbit
+
+# Temporary files
+*.tmp
+*.log
